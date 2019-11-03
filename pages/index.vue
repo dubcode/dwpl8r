@@ -5,7 +5,6 @@
       <strapline />
       <breadcrumbs />
       <order />
-      <popper />
       <btn />
     </div>
   </div>
@@ -16,7 +15,6 @@ import Logo from '~/components/Logo.vue'
 import Strapline from '~/components/Strapline.vue'
 import Breadcrumbs from '~/components/Breadcrumbs.vue'
 import Order from '~/components/Order.vue'
-import Popper from '~/components/Popper.vue'
 import Btn from '~/components/Btn.vue'
 export default {
   components: {
@@ -24,7 +22,6 @@ export default {
     Strapline,
     Breadcrumbs,
     Order,
-    Popper,
     Btn
   }
 }
